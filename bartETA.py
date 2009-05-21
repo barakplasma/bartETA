@@ -21,14 +21,15 @@ time = []
 
 #print xmldoc.toprettyxml()
 def whichTags(need):
+    global tags
     tags = xmldoc.getElementsByTagName(need)
     #print tags[0].toxml()
     return tags
 def whichStation(statN):
     #pdb.set_trace()
     station = statN
-    print taggedxml
-    print taggedxml[station].toxml()
+    #print taggedxml
+    #print taggedxml[station].toxml()
     stationInfo = taggedxml[station].childNodes
     #print stationInfo
     return stationInfo 
@@ -52,6 +53,7 @@ def displayETAs():
 
 def main():
     # the main code goes here
+    global taggedxml
     taggedxml = whichTags('station')
     statInf = whichStation(13)
     
