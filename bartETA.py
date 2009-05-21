@@ -34,11 +34,12 @@ def whichStation(statN):
     #print stationInfo
     return stationInfo 
 def dataFields():
+    global name, abbr, date, time, etaDests
     name = statInf[1].toxml()
     abbr = statInf[3].toxml()
     date = statInf[5].toxml()
     time = statInf[7].toxml()
-    etaDests = stationInfo[9:]
+    etaDests = statInf[9:]
     #cleanEta(3)
 def cleanEta(a):
     for n in range(1,a):
@@ -53,11 +54,12 @@ def displayETAs():
 
 def main():
     # the main code goes here
-    global taggedxml
+    global taggedxml,statInf
+    #print list of stations(write it) 
+    iwant = int(raw_input("what station?"))
     taggedxml = whichTags('station')
-    statInf = whichStation(13)
-    
+    statInf = whichStation(iwant)
     displayETAs()
- 
+     
 if __name__=="__main__":
     main()
