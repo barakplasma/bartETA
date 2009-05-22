@@ -46,7 +46,10 @@ def cleanEta(a):
         del etaDests[a]
 def displayETAs():
     dataFields()
-    print name,abbr,date,time
+    print name
+    print abbr
+    print date
+    print time
     i = 0
     for childNodes in etaDests:
         print etaDests[i].toxml()
@@ -55,16 +58,32 @@ def userIn():
     #print list of stations(fxn to convert 4 letter to station) 
     iwant = (raw_input("station (ex. 'dbrk'): "))
     #Connor N. contributer
-    statNum= ["12th","16th","19th","24th","ashb","balb","bayf","cast","civc","cols","colm","","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th"]
+    statNum = ["12th", "16th","19th","24th","ashb", "balb","bayf", "cast", "civc", "cols", "colm", "conc", "daly", "dbrk", "dubl", "deln", "plza", "embr", "frmt", "ftvl", "glen", "hayw", "lafy", "lake", "mcar", "mlbr", "mont", "nbrk", "ncon", "orin", "pitt", "phil", "powl", "rich", "rock", "sbrn", "sfia", "sanl", "shay", "ssan", "ucty", "wcrk", "woak"]
     n = statNum.index(iwant)
     return n
 def main():
+    """
+    Here is how it works:
+    Send an email to bart@barakplasma.dyn-o-saur.com
+    with a subject line "nextBart dbrk"
+    server recieves email
+        email to a gmail account
+        gmail account only forwards properly formatted emails
+        postfix recieves emails
+            http://flurdy.com/docs/postfix/
+        
+    uses python smtplib to parse email subject line
+    redirect subject line argument "dbrk"
+    to python script as follows:
+    bartETA.py dbrk
+    this calls previous script
+    to send text from method displayETA()
+    as email to the email sender
+    """
     # the main code goes here
     global taggedxml,statInf
- 
-   
     taggedxml = whichTags('station')
-    statInf = whichStation(userIn())
+    statInf = whichStation(userIn()) #userIn() for testing
     displayETAs()
      
 if __name__=="__main__":
