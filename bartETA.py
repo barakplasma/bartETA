@@ -52,14 +52,17 @@ def displayETAs():
         print etaDests[i].toxml()
         i = i+1
 def userIn():
-    iwant = int(raw_input("station (ex. 'dbrk'): "))
-    return iwant
+    #print list of stations(fxn to convert 4 letter to station) 
+    iwant = (raw_input("station (ex. 'dbrk'): "))
+    #Connor N. contributer
+    statNum= ["12th","16th","19th","24th","ashb","balb","bayf","cast","civc","cols","colm","","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th","16th"]
+    n = statNum.index(iwant)
+    return n
 def main():
     # the main code goes here
     global taggedxml,statInf
-    #print list of stations(fxn to convert 4 letter to station) 
-    #iwant = int(raw_input("what station?"))
-    
+ 
+   
     taggedxml = whichTags('station')
     statInf = whichStation(userIn())
     displayETAs()
