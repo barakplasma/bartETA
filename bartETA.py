@@ -55,7 +55,7 @@ def displayETAs():
 def main():
     # the main code goes here
     global taggedxml,statInf
-    #print list of stations(write it) 
+    #print list of stations(fxn to convert 4 letter to station) 
     iwant = int(raw_input("what station?"))
     taggedxml = whichTags('station')
     statInf = whichStation(iwant)
