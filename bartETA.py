@@ -51,14 +51,17 @@ def displayETAs():
     for childNodes in etaDests:
         print etaDests[i].toxml()
         i = i+1
-
+def userIn():
+    iwant = int(raw_input("station (ex. 'dbrk'): "))
+    return iwant
 def main():
     # the main code goes here
     global taggedxml,statInf
     #print list of stations(fxn to convert 4 letter to station) 
-    iwant = int(raw_input("what station?"))
+    #iwant = int(raw_input("what station?"))
+    
     taggedxml = whichTags('station')
-    statInf = whichStation(iwant)
+    statInf = whichStation(userIn())
     displayETAs()
      
 if __name__=="__main__":
