@@ -4,6 +4,8 @@ import sys
 import smtplib
 from xml.dom import minidom
 import pdb
+import smtplib
+from email.mime.text import MIMEText
 
 address = 'http://bart.gov/dev/eta/bart_eta.xml'
 xmldoc = minidom.parse(urllib.urlopen(address))
@@ -54,6 +56,64 @@ def displayETAs():
     for childNodes in etaDests:
         print etaDests[i].toxml()
         i = i+1
+        
+def emailETAs():
+    smtpuser = 'nxtBart@gmail.com'
+    smtppass = 'thebartisawesome'
+    fromaddr = 'Service Account <nextTrain@gmail.com>'
+    toaddrs = 'barakplasma@gmail.com'.split()
+    bccaddrs = 'nextTrain+self@gmail.com'
+    subject = ("your next train from ",name+" "+abbr)
+    msg = ("")
+    #dataFields()
+    msg += name+abbr+date+time
+    msgAddon = ""
+    i = 0
+    for childNodes in etaDests:
+        msgAddon += etaDests[i].toxml()
+        i = i + 1
+    msg = msg+msgAddon
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.set_debuglevel(1)
+    #
+    # Start the conversation with EHLO
+    #
+    server.ehlo()
+    #
+    # Request STARTTLS
+    #
+    server.starttls() 
+    #
+    # And say EHLO again
+    #
+    server.ehlo()
+    #
+    # Login to the server with SMTP AUTH now that were TLSd and client identified #
+    server.login(smtpuser, smtppass)
+    #
+    # Finally, send the mail!
+    #
+    server.sendmail(fromaddr, toaddrs, msg)
+    try:
+        server.quit()
+    except:
+        pass
+    """
+    
+    fp = open(textfile, 'rb')
+    msg = MIMEText(fp.read())
+    fp.close()
+    # me == the sender's email address
+    # you == the recipient's email address
+    msg['Subject'] = 'The contents of %s' % textfile
+    msg['From'] = me
+    msg['To'] = you
+    # Send the message via our own SMTP server, but don't include the
+    # envelope header.
+    s = smtplib.SMTP()
+    s.sendmail(me, [you], msg.as_string())
+    s.quit()
+    """
 def userIn():
     #print list of stations(fxn to convert 4 letter to station) 
     iwant = (raw_input("station (ex. 'dbrk'): "))
@@ -85,6 +145,7 @@ def main():
     taggedxml = whichTags('station')
     statInf = whichStation(userIn()) #userIn() for testing
     displayETAs()
+    emailETAs()
      
 if __name__=="__main__":
     main()
