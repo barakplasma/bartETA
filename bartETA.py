@@ -59,7 +59,7 @@ def displayETAs():
         
 def emailETAs(emailReq):
     smtpuser = 'nxtBart@gmail.com'
-    smtppass = 'thebartisawesome'
+    smtppass = 'thebartisawesome'#change this password!
     fromaddr = 'Service Account <nextTrain@gmail.com>'
     toaddrs = emailReq.split()
     bccaddrs = 'nextTrain+self@gmail.com'
