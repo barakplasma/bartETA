@@ -58,6 +58,7 @@ def displayETAs():
         i = i+1
         
 def emailETAs(emailReq):
+    #use this http://docs.python.org/library/email-examples.html#email-examples
     smtpuser = 'nxtBart@gmail.com'
     smtppass = 'thebartisawesome'#change this password!
     fromaddr = 'Service Account <nextTrain@gmail.com>'
