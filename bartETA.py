@@ -57,14 +57,14 @@ def displayETAs():
         print etaDests[i].toxml()
         i = i+1
         
-def emailETAs():
+def emailETAs(emailReq):
     smtpuser = 'nxtBart@gmail.com'
     smtppass = 'thebartisawesome'
     fromaddr = 'Service Account <nextTrain@gmail.com>'
-    toaddrs = 'barakplasma@gmail.com'.split()
+    toaddrs = emailReq.split()
     bccaddrs = 'nextTrain+self@gmail.com'
-    subject = ("your next train from ",name+" "+abbr)
-    msg = ("")
+    subject = "your next train from " + name
+    msg = ""
     #dataFields()
     msg += name+abbr+date+time
     msgAddon = ""
@@ -145,7 +145,7 @@ def main():
     taggedxml = whichTags('station')
     statInf = whichStation(userIn()) #userIn() for testing
     displayETAs()
-    emailETAs()
+    emailETAs('barakplasma@gmail.com')
      
 if __name__=="__main__":
     main()
