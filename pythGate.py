@@ -18,9 +18,13 @@ for num in data[0].split():
     #while(counter > 0):
 #       allmsgs += 'Message %s\n%s\n' % (num, data[0][1])
 #	counter = counter - 1
-print allmsgs
+#print allmsgs
 txtmsgs = open('./txtmsgs.txt','r+')
 txtmsgs.write(allmsgs)
 #txtmsgs.read()
+txtmsgs.close()
+x , y = M.list()
+print x
+print y
 M.close()
 M.logout()
