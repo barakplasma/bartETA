@@ -16,7 +16,7 @@ for num in data[0].split():
     allmsgs += 'Message %s\n%s\n' % (num, data[0][1])
     counter = counter - 1
     #while(counter > 0):
-        allmsgs += 'Message %s\n%s\n' % (num, data[0][1])
+#       allmsgs += 'Message %s\n%s\n' % (num, data[0][1])
 #	counter = counter - 1
 print allmsgs
 M.close()
