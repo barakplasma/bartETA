@@ -46,29 +46,34 @@ Content-Transfer-Encoding: 7bit
 <br>
 
 --0015174c3f9c2a2264046b50bd08--
- min, 31 min</estimate>
-</eta>
-<eta>
-<destination>Richmond</destination>
-<estimate>9 min, 11 min, 23 min</estimate>
-</eta>
+Message 3
+Delivered-To: nxtbart@gmail.com
+Received: by 10.211.177.5 with SMTP id e5cs330483ebp;
+        Thu, 4 Jun 2009 14:23:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.150.190.16 with SMTP id n16mr4318545ybf.323.1244150605491; 
+	Thu, 04 Jun 2009 14:23:25 -0700 (PDT)
+Date: Thu, 4 Jun 2009 14:23:25 -0700
+Message-ID: <1bcf3e300906041423t166d2b37jc88539e9dc7ae124@mail.gmail.com>
+Subject: nxtTrain ashb
+From: Michael Salaverry <barakplasma@gmail.com>
+To: nxtbart@gmail.com
+Content-Type: multipart/alternative; boundary=000e0cd6b264e32e42046b8c6283
 
- by 10.204.122.145; Tue, 26 May 2009 14:47:34 -0700 (PDT)
-Message-ID: <914981dc0905261447y6a3d9a40x@mail.gmail.com>
-Subject: Import your contacts and old email
-From: The Gmail Team <mail-noreply@google.com>
-To: next train <nxtbart@gmail.com>
-Content-Type: multipart/alternative; boundary=0016368e327fb0f7f6046ad7ac8b
+--000e0cd6b264e32e42046b8c6283
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
 
---0016368e327fb0f7f6046ad7ac8b
-Content-Type: text/plain; charset=ISO-8859-1
-Content-Transfer-Encoding: quoted-printable
 
-You can import your contacts and mail from Yahoo!, Hotmail, AOL, and many
-other web mail or POP accounts. If you want, we'll even keep importing your
-mail for the next 30 days.
 
-* Import contacts and mail =BB<http://mail.google.com/mail/#settings/accoun=
+--000e0cd6b264e32e42046b8c6283
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--000e0cd6b264e32e42046b8c6283--
+ngs/accoun=
 ts>
 *
 
