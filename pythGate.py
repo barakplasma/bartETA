@@ -30,9 +30,9 @@ for num in data[0].split():
 
 
 
-txtmsgs = open('./txtmsgs.txt','r+')
+txtmsgs = open('./txtmsgs.txt','w')
 txtmsgs.write(allmsgs)
-txtmsgs.read()
+#txtmsgs.read()
 txtmsgs.close()
 
 
