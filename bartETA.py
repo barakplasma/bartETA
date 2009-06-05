@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 import urllib
 import sys
+import os
 import smtplib
 from xml.dom import minidom
 import pdb
-import smtplib
 from email.mime.text import MIMEText
 
 address = 'http://bart.gov/dev/eta/bart_eta.xml'
@@ -27,6 +27,15 @@ def dataFields():
     abbr = statInf[3].toxml()
     date = statInf[5].toxml()
     time = statInf[7].toxml()
+    name = name.lstrip('<name>')
+    name = name.rstrip('</name>')
+    abbr = abbr.lstrip('<abbr>')
+    abbr = abbr.rstrip('</abbr>')
+    date = date.lstrip('<date>')
+    date = date.rstrip('</date>')
+    time = time.lstrip('<time>')
+    time = time.rstrip('</time>')
+    
     etaDests = statInf[9:]
 
 def cleanEta(a):
@@ -46,6 +55,8 @@ def displayETAs():
         
 def emailETAs(emailReq):
     #use this http://docs.python.org/library/email-examples.html#email-examples
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.set_debuglevel(1)
     smtpuser = 'nxtBart@gmail.com'
     smtppass = 'thebartisawesome'#change this password!
     fromaddr = 'Service Account <nextTrain@gmail.com>'
@@ -54,15 +65,17 @@ def emailETAs(emailReq):
     subject = "your next train from " + name
     dataFields()
     msg = ""
-    msgAddon = ""
-    msgAddon += name+abbr+date+time
+    msg += name
+    msg += abbr
+    msg += date
+    msg += time
     i = 0
     for childNodes in etaDests:
-        msgAddon += etaDests[i].toxml()
+        msg += etaDests[i].toxml()
         i = i + 1
-    msg = msg+msgAddon
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.set_debuglevel(1)
+    print msg
+    """ 
+    #This code sends the message. need to start using the email package
     server.ehlo()
     server.starttls() 
     server.ehlo()
@@ -72,12 +85,15 @@ def emailETAs(emailReq):
         server.quit()
     except:
         pass
+    """
+   
 def userIn():
     iwant = (raw_input("station (ex. 'dbrk'): "))
     #Connor N. contributer
     statNum = ["12th", "16th","19th","24th","ashb", "balb","bayf", "cast", "civc", "cols", "colm", "conc", "daly", "dbrk", "dubl", "deln", "plza", "embr", "frmt", "ftvl", "glen", "hayw", "lafy", "lake", "mcar", "mlbr", "mont", "nbrk", "ncon", "orin", "pitt", "phil", "powl", "rich", "rock", "sbrn", "sfia", "sanl", "shay", "ssan", "ucty", "wcrk", "woak"]
     n = statNum.index(iwant)
     return n
+
 def main():
     global taggedxml,statInf
     taggedxml = whichTags('station')
