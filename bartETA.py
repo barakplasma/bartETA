@@ -89,7 +89,7 @@ def emailETAs(emailReq):
         pass
    
 def userIn():
-    iwant = (raw_input("station (ex. 'dbrk'): "))
+    iwant = request#(raw_input("station (ex. 'dbrk'): "))
     #Connor N. contributer
     statNum = ["12th", "16th","19th","24th","ashb", "balb","bayf", "cast", "civc", "cols", "colm", "conc", "daly", "dbrk", "dubl", "deln", "plza", "embr", "frmt", "ftvl", "glen", "hayw", "lafy", "lake", "mcar", "mlbr", "mont", "nbrk", "ncon", "orin", "pitt", "phil", "powl", "rich", "rock", "sbrn", "sfia", "sanl", "shay", "ssan", "ucty", "wcrk", "woak"]
     n = statNum.index(iwant)
@@ -98,9 +98,15 @@ def userIn():
 def main():
     global taggedxml,statInf
     taggedxml = whichTags('station')
+    global request
+    global requestaddr
+    request = sys.argv[1]  
+    requestaddr = sys.argv[2]
     statInf = whichStation(userIn()) #userIn() for testing
     displayETAs()
-    emailETAs('barakplasma@gmail.com')
+    print request
+    print requestaddr
+    emailETAs(requestaddr)#input email as string for testing"
      
 if __name__=="__main__":
     main()
