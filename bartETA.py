@@ -29,13 +29,16 @@ def dataFields():
     time = statInf[7].toxml()
     name = name.lstrip('<name>')
     name = name.rstrip('</name>')
+    name += '\n'
     abbr = abbr.lstrip('<abbr>')
     abbr = abbr.rstrip('</abbr>')
+    abbr += '\n'
     date = date.lstrip('<date>')
     date = date.rstrip('</date>')
+    date += '\n'
     time = time.lstrip('<time>')
     time = time.rstrip('</time>')
-    
+    time += '\n'
     etaDests = statInf[9:]
 
 def cleanEta(a):
@@ -73,9 +76,8 @@ def emailETAs(emailReq):
     for childNodes in etaDests:
         msg += etaDests[i].toxml()
         i = i + 1
-    print msg
-    """ 
-    #This code sends the message. need to start using the email package
+    #print msg
+    #This code sends the message. need to start using the email package to get access to subj line
     server.ehlo()
     server.starttls() 
     server.ehlo()
@@ -85,7 +87,6 @@ def emailETAs(emailReq):
         server.quit()
     except:
         pass
-    """
    
 def userIn():
     iwant = (raw_input("station (ex. 'dbrk'): "))
