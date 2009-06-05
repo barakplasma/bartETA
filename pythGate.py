@@ -1,4 +1,5 @@
 import imaplib
+import os
 #do something with this http://www.doughellmann.com/PyMOTW/imaplib/
 
 M = imaplib.IMAP4_SSL('imap.gmail.com', 993)
@@ -35,8 +36,7 @@ txtmsgs.write(allmsgs)
 #txtmsgs.read()
 txtmsgs.close()
 
-
-
+os.system("tail -28 txtmsgs.txt > currLastRequest.txt")
 
 M.close()
 M.logout()
