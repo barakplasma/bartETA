@@ -38,6 +38,7 @@ txtmsgs.close()
 
 os.system("tail -28 txtmsgs.txt > currLastRequest.txt")
 #if new msg
+
 #run stripper.py
 
 M.close()
