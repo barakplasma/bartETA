@@ -100,3 +100,75 @@ Content-Transfer-Encoding: 7bit
 <br>
 
 --001e680f112c8c7bde046ba0f6a2--
+Message 5
+Delivered-To: nxtbart@gmail.com
+Received: by 10.211.177.5 with SMTP id e5cs58813ebp;
+        Fri, 5 Jun 2009 22:19:32 -0700 (PDT)
+Received: by 10.210.78.16 with SMTP id a16mr1835260ebb.9.1244265572494;
+        Fri, 05 Jun 2009 22:19:32 -0700 (PDT)
+Return-Path: <>
+Received: by 10.210.78.16 with SMTP id a16mr2488780ebb.9;
+        Fri, 05 Jun 2009 22:19:32 -0700 (PDT)
+Message-ID: <000e0cd1eb70746b61046ba727fb@googlemail.com>
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: nxtbart@gmail.com
+Subject: Delivery Status Notification (Delay)
+Date: Fri, 05 Jun 2009 22:19:32 -0700 (PDT)
+
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     michael@barakplasma.dyn-o-saur.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://mail.google.com/support/bin/answer.py?answer=7720 
+[barakplasma.dyn-o-saur.com (1): Connection timed out]
+
+   ----- Message header follows -----
+
+MIME-Version: 1.0
+Received: by 10.210.78.16 with SMTP id a16mr349903ebb.9.1244151028041; Thu, 04 
+	Jun 2009 14:30:28 -0700 (PDT)
+Date: Thu, 4 Jun 2009 14:30:28 -0700
+Message-ID: <914981dc0906041430x156f8779s1edfea41a3d38710@mail.gmail.com>
+Subject: nextTrain ashb
+From: next train <nxtbart@gmail.com>
+To: michael@barakplasma.dyn-o-saur.com
+Content-Type: multipart/alternative; boundary=000e0cd1eb7012ca50046b8c7c06
+
+   ----- Message body suppressed -----
+
+Message 6
+Delivered-To: nxtbart@gmail.com
+Received: by 10.204.122.145 with SMTP id l17cs117134bkr;
+        Fri, 5 Jun 2009 23:54:04 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.151.144.13 with SMTP id w13mr7602857ybn.281.1244271243643; 
+	Fri, 05 Jun 2009 23:54:03 -0700 (PDT)
+Date: Fri, 5 Jun 2009 23:54:03 -0700
+Message-ID: <1bcf3e300906052354s51076b51i93b69c94489e84dd@mail.gmail.com>
+Subject: nxtTrain sanl
+From: Michael Salaverry <barakplasma@gmail.com>
+To: nxtbart@gmail.com
+Content-Type: multipart/alternative; boundary=00151750dcac7b4d34046ba879b5
+
+--00151750dcac7b4d34046ba879b5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+--00151750dcac7b4d34046ba879b5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--00151750dcac7b4d34046ba879b5--
