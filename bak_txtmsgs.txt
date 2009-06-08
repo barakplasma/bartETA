@@ -1,0 +1,204 @@
+Message 1
+MIME-Version: 1.0
+Received: by 10.211.177.5 with HTTP; Mon, 1 Jun 2009 14:58:00 -0700 (PDT)
+Date: Mon, 1 Jun 2009 14:58:00 -0700
+Delivered-To: nxtbart@gmail.com
+Message-ID: <914981dc0906011458k78aca907gbcb6934da653f42@mail.gmail.com>
+Subject: nxtTrain dbrk
+From: next train <nxtbart@gmail.com>
+To: nxtBart@gmail.com
+Content-Type: multipart/alternative; boundary=0015174bef28069a08046b50851e
+
+--0015174bef28069a08046b50851e
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+
+--0015174bef28069a08046b50851e
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--0015174bef28069a08046b50851e--
+Message 2
+MIME-Version: 1.0
+Received: by 10.211.177.5 with HTTP; Mon, 1 Jun 2009 15:13:42 -0700 (PDT)
+Date: Mon, 1 Jun 2009 15:13:42 -0700
+Delivered-To: nxtbart@gmail.com
+Message-ID: <914981dc0906011513h40434defyd2a51faefaa7a4c3@mail.gmail.com>
+Subject: nxtTrain ashb
+From: next train <nxtbart@gmail.com>
+To: nxtBart@gmail.com
+Content-Type: multipart/alternative; boundary=0015174c3f9c2a2264046b50bd08
+
+--0015174c3f9c2a2264046b50bd08
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+
+--0015174c3f9c2a2264046b50bd08
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--0015174c3f9c2a2264046b50bd08--
+Message 3
+Delivered-To: nxtbart@gmail.com
+Received: by 10.211.177.5 with SMTP id e5cs330483ebp;
+        Thu, 4 Jun 2009 14:23:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.150.190.16 with SMTP id n16mr4318545ybf.323.1244150605491; 
+	Thu, 04 Jun 2009 14:23:25 -0700 (PDT)
+Date: Thu, 4 Jun 2009 14:23:25 -0700
+Message-ID: <1bcf3e300906041423t166d2b37jc88539e9dc7ae124@mail.gmail.com>
+Subject: nxtTrain ashb
+From: Michael Salaverry <barakplasma@gmail.com>
+To: nxtbart@gmail.com
+Content-Type: multipart/alternative; boundary=000e0cd6b264e32e42046b8c6283
+
+--000e0cd6b264e32e42046b8c6283
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+--000e0cd6b264e32e42046b8c6283
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--000e0cd6b264e32e42046b8c6283--
+ngs/accoun=
+ts>
+*
+
+We know it can be a pain to switch email accounts, and we hope this makes
+the transition to Gmail a bit easier.
+
+- The Gmail Team
+
+Please note that importing is not available if you're using Internet
+Explorer 6.0. To take advantage of the latest Gmail features, please upgrad=
+e
+to a fully supported
+browser<http://mail.google.com/support/bin/answer.py?answer=3D6557&hl=3Den&=
+utm_source=3Dwel-eml&utm_medium=3Deml&utm_campaign=3Den>
+.
+
+--0016368e327fb0f7f6046ad7ac8b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+<font face="Arial, Helvetica, sans-serif">
+<p>You can import your contacts and mail from Yahoo!, Hotmail, AOL, and many
+other web mail or POP accounts. If you want, we'll even keep importing your
+mail for the next 30 days.</p>
+
+<p><strong><a href="http://mail.google.com/mail/#settings/accounts">
+Import contacts and mail &#187;</a></strong></p>
+
+<p>We know it can be a pain to switch email accounts, and we hope this makes
+the transition to Gmail a bit easier.</p>
+
+<p>- The Gmail Team</p>
+
+<p><font size="-2" color="#999">Please note that importing is not available if
+you're using Internet Explorer 6.0. To take advantage of the latest Gmail
+features, please
+<a href="http://mail.google.com/support/bin/answer.py?answer=6557&hl=en&utm_source=wel-eml&utm_medium=eml&utm_campaign=en"><font color="#999">
+upgrade to a fully supported browser</font></a>.</font></p>
+
+</font>
+</html>
+
+--0016368e327fb0f7f6046ad7ac8b--
+Message 3
+MIME-Version: 1.0
+Date: Tue, 26 May 2009 14:47:34 -0700
+Received: by 10.204.122.145; Tue, 26 May 2009 14:47:34 -0700 (PDT)
+Message-ID: <914981dc0905261447k1852336fh@mail.gmail.com>
+Subject: Customize Gmail with colors and themes
+From: The Gmail Team <mail-noreply@google.com>
+To: next train <nxtbart@gmail.com>
+Content-Type: multipart/alternative; boundary=001636c5b29cb15eb7046ad7ac4d
+
+--001636c5b29cb15eb7046ad7ac4d
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+To spice up your inbox with colors and themes, check out the Themes tab
+under Settings.
+
+* Click here to customize Gmail =BB<http://mail.google.com/mail/#settings/t=
+hemes>
+*
+Enjoy!
+
+- The Gmail Team
+
+Please note that Themes are not available if you're using Internet Explorer
+6.0. To take advantage of the latest Gmail features, please upgrade to a
+fully supported
+browser<http://mail.google.com/support/bin/answer.py?answer=3D6557&hl=3Den&=
+utm_source=3Dwel-eml&utm_medium=3Deml&utm_campaign=3Den>
+.
+
+--001636c5b29cb15eb7046ad7ac4d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+<font face="Arial, Helvetica, sans-serif">
+<p>To spice up your inbox with colors and themes, check out the Themes tab
+under Settings.</p>
+
+<p><strong><a href="http://mail.google.com/mail/#settings/themes">
+Click here to customize Gmail &#187;</a></strong></p>
+
+Enjoy!
+
+<p>- The Gmail Team</p>
+
+<p><font size="-2" color="#999">Please note that Themes are not available if
+you're using Internet Explorer 6.0. To take advantage of the latest Gmail
+features, please
+<a href="http://mail.google.com/support/bin/answer.py?answer=6557&hl=en&utm_source=wel-eml&utm_medium=eml&utm_campaign=en"><font color="#999">
+upgrade to a fully supported browser</font></a>.</font></p>
+
+</font>
+</html>
+
+--001636c5b29cb15eb7046ad7ac4d--
+Message 4
+Delivered-To: nxtbart@gmail.com
+Received: by 10.211.177.5 with SMTP id e5cs196342ebp;
+        Mon, 1 Jun 2009 14:49:50 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.151.69.4 with SMTP id w4mr12481859ybk.193.1243892989877; Mon, 
+	01 Jun 2009 14:49:49 -0700 (PDT)
+Date: Mon, 1 Jun 2009 14:49:49 -0700
+Message-ID: <1bcf3e300906011449u23325f3l7074b33571abfc12@mail.gmail.com>
+Subject: nxtBart dbrk
+From: Michael Salaverry <barakplasma@gmail.com>
+To: nxtbart@gmail.com
+Content-Type: multipart/alternative; boundary=001e680f11eccce009046b5067b1
+
+--001e680f11eccce009046b5067b1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+--001e680f11eccce009046b5067b1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<br>
+
+--001e680f11eccce009046b5067b1--
