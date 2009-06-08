@@ -35,10 +35,17 @@ txtmsgs = open('./txtmsgs.txt','w')
 txtmsgs.write(allmsgs)
 #txtmsgs.read()
 txtmsgs.close()
-
+os.system("cp currLastRequest.txt 2ndrequest.txt")
 os.system("tail -28 txtmsgs.txt > currLastRequest.txt")
 #if new msg
-
+os.system("diff -q currLastRequest.txt 2ndrequest.txt >> diffTrue.txt")
+difference = open('./diffTrue.txt','r')
+crazy = difference.read()
+isdiff = ""
+#if (crazy is equal to string diff)
+if(crazy != isdiff):
+    os.system("python stripper.py")
+#run the prog
 #run stripper.py
 
 M.close()

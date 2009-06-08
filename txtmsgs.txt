@@ -172,3 +172,99 @@ Content-Transfer-Encoding: 7bit
 <br>
 
 --00151750dcac7b4d34046ba879b5--
+Message 7
+Delivered-To: nxtbart@gmail.com
+Received: by 10.210.141.12 with SMTP id o12cs24632ebd;
+        Sat, 6 Jun 2009 17:40:50 -0700 (PDT)
+Received: by 10.210.78.16 with SMTP id a16mr2718257ebb.9.1244335249748;
+        Sat, 06 Jun 2009 17:40:49 -0700 (PDT)
+Return-Path: <>
+Received: by 10.210.78.16 with SMTP id a16mr3690744ebb.9;
+        Sat, 06 Jun 2009 17:40:49 -0700 (PDT)
+Message-ID: <000e0cd1eb708af38a046bb76025@googlemail.com>
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: nxtbart@gmail.com
+Subject: Delivery Status Notification (Delay)
+Date: Sat, 06 Jun 2009 17:40:49 -0700 (PDT)
+
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     michael@barakplasma.dyn-o-saur.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://mail.google.com/support/bin/answer.py?answer=7720 
+[barakplasma.dyn-o-saur.com (1): Connection timed out]
+
+   ----- Message header follows -----
+
+MIME-Version: 1.0
+Received: by 10.210.78.16 with SMTP id a16mr349903ebb.9.1244151028041; Thu, 04 
+	Jun 2009 14:30:28 -0700 (PDT)
+Date: Thu, 4 Jun 2009 14:30:28 -0700
+Message-ID: <914981dc0906041430x156f8779s1edfea41a3d38710@mail.gmail.com>
+Subject: nextTrain ashb
+From: next train <nxtbart@gmail.com>
+To: michael@barakplasma.dyn-o-saur.com
+Content-Type: multipart/alternative; boundary=000e0cd1eb7012ca50046b8c7c06
+
+   ----- Message body suppressed -----
+
+Message 8
+Delivered-To: nxtbart@gmail.com
+Received: by 10.210.141.12 with SMTP id o12cs70094ebd;
+        Mon, 8 Jun 2009 03:41:00 -0700 (PDT)
+Received: by 10.210.18.18 with SMTP id 18mr1081077ebr.9.1244457658771;
+        Mon, 08 Jun 2009 03:40:58 -0700 (PDT)
+Return-Path: <>
+Received: by 10.210.18.18 with SMTP id 18mr1433207ebr.9;
+        Mon, 08 Jun 2009 03:40:58 -0700 (PDT)
+Message-ID: <0015174c0f24b06643046bd3e0d6@googlemail.com>
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: nxtbart@gmail.com
+Subject: Delivery Status Notification (Failure)
+Date: Mon, 08 Jun 2009 03:40:58 -0700 (PDT)
+
+This is an automatically generated Delivery Status Notification
+
+Delivery to the following recipient failed permanently:
+
+     michael@barakplasma.dyn-o-saur.com
+
+Technical details of permanent failure: 
+The recipient server did not accept our requests to connect. Learn more at http://mail.google.com/support/bin/answer.py?answer=7720 
+[barakplasma.dyn-o-saur.com (1): Connection timed out]
+
+   ----- Original message -----
+
+MIME-Version: 1.0
+Received: by 10.210.78.16 with SMTP id a16mr349903ebb.9.1244151028041; Thu, 04 
+	Jun 2009 14:30:28 -0700 (PDT)
+Date: Thu, 4 Jun 2009 14:30:28 -0700
+Message-ID: <914981dc0906041430x156f8779s1edfea41a3d38710@mail.gmail.com>
+Subject: nextTrain ashb
+From: next train <nxtbart@gmail.com>
+To: michael@barakplasma.dyn-o-saur.com
+Content-Type: multipart/alternative; boundary=000e0cd1eb7012ca50046b8c7c06
+
+--000e0cd1eb7012ca50046b8c7c06
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+testing if this works
+
+--000e0cd1eb7012ca50046b8c7c06
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+   ----- Message truncated -----
+
+
