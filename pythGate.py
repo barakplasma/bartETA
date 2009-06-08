@@ -43,7 +43,7 @@ difference = open('./diffTrue.txt','r')
 crazy = difference.read()
 isdiff = ""
 #if (crazy is equal to string diff)
-if(!(crazy == isdiff))
+if not (crazy == isdiff):
     os.system("python stripper.py")
 #run the prog
 #run stripper.py
