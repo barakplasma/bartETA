@@ -61,7 +61,7 @@ def emailETAs(emailReq):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.set_debuglevel(1)
     smtpuser = 'nxtBart@gmail.com'
-    smtppass = 'thebartisawesome'#change this password!
+    smtppass = ''#change this password!
     fromaddr = 'Service Account <nextTrain@gmail.com>'
     toaddrs = emailReq.split()
     bccaddrs = 'nextTrain+self@gmail.com'
