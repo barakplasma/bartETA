@@ -1,0 +1,1 @@
+I wrote this in 2009 to allow me to find out the BART arrival time at any station via text message. I could send an SMS direct message via Twitter to a bot I had running on Google App Engine. The Bot responds via Twitter Direct Message to the user with the BART arrival times for their requested station.
