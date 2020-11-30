@@ -5,7 +5,7 @@ import os
 M = imaplib.IMAP4_SSL('imap.gmail.com', 993)
 
 userName = "nxtBart"
-pw = "thebartisawesome" # not the actual password
+pw = os.environ.get('password')
 
 M.login(userName,pw)
 print "logged in"
